@@ -1,0 +1,51 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m4",
+        "extra_flags": "-DSTM32G4xx -DSTM32G484xx",
+        "f_cpu": "150000000L",
+        "mcu": "stm32g484met6",
+        "product_line": "STM32G474xx",
+        "variant": "STM32G4xx/G473M(B-C-E)T_G474M(B-C-E)T_G483MET_G484MET"
+    },
+    "connectivity": [
+        "can"
+    ],
+    "debug": {
+        "default_tools": [
+            "stlink"
+        ],
+        "jlink_device": "STM32G484ME",
+        "onboard_tools": [
+            "stlink"
+        ],
+        "openocd_chipname": "stm32g484me",
+        "openocd_target": "stm32g4x",
+        "svd_path": "STM32G484xx.svd"
+    },
+    "frameworks": [
+        "arduino",
+        "cmsis",
+        "mbed",
+        "libopencm3",
+        "stm32cube",
+        "zephyr"
+    ],
+    "name": "Trio Drive (STM32G484ME)",
+    "upload": {
+        "maximum_ram_size": 131072,
+        "maximum_size": 524288,
+        "protocol": "stlink",
+        "protocols": [
+            "stlink",
+            "jlink",
+            "cmsis-dap",
+            "blackmagic",
+            "mbed",
+            "serial",
+            "dfu"
+        ]
+    },
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g484me.html",
+    "vendor": "ST"
+}
