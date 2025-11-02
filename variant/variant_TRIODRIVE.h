@@ -53,18 +53,18 @@
 #define VBAT_GAIN           ((2.2f+47.0f)/2.2f)
 #define CURRENT_VpA         (2200.0f/9200.0f)
 
-// spi bus 2 - Sensor 1
-#define SENSOR1_nCS_PIN     PB0
-#define CIPO1_PIN           PA10
-#define COPI1_PIN           PB15
-#define SCLK1_PIN           PF1
+// spi bus 2 - Sensor 2
+#define SENSOR2_nCS_PIN     PB0
+#define CIPO2_PIN           PA10
+#define COPI2_PIN           PB15
+#define SCLK2_PIN           PF1
 //extern SPIClass SPI_Sensor1;
 
-// spi bus 3 - Sensor 2
-#define SENSOR2_nCS_PIN     PE11
-#define CIPO2_PIN           PC11
-#define COPI2_PIN           PB5
-#define SCLK2_PIN           PC10
+// spi bus 3 - Sensor 1
+#define SENSOR1_nCS_PIN     PE11
+#define CIPO1_PIN           PC_11
+#define COPI1_PIN           PB_5_ALT1
+#define SCLK1_PIN           PC_10
 //extern SPIClass SPI_Sensor2;
 
 // spi bus 4 - Sensor 3

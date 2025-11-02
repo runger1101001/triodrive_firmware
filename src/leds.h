@@ -19,7 +19,7 @@ class TrioDriveLEDs {
                 strip.setPixelColor(led, color);
             show();
         };
-        void setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t led=-1) {
+        void setColor(uint8_t r, uint8_t g, uint8_t b, int8_t led=-1) {
             if (led < 0)
                 strip.fill(strip.Color(r, g, b));
             else
