@@ -14,9 +14,10 @@
 #define M1_INV_PIN          PC1
 #define M1_INW_PIN          PC2
 
-#define M1_AOUTU_PIN        
-#define M1_AOUTV_PIN        
-#define M1_AOUTW_PIN        
+// PA3 = ADC1_IN4, PA2 = ADC1_IN3, PA1 = ADC1_IN2
+#define M1_AOUTU_PIN        PA3
+#define M1_AOUTV_PIN        PA2
+#define M1_AOUTW_PIN        PA1
 
 #define M1_nFAULT_PIN       PC13
 #define M1_nSLEEP_PIN       PC14
@@ -27,9 +28,10 @@
 #define M2_INV_PIN          PB8
 #define M2_INW_PIN          PB9
 
-#define M2_AOUTU_PIN        
-#define M2_AOUTV_PIN        
-#define M2_AOUTW_PIN        
+// PA7 = ADC2_IN4, PC4 = ADC2_IN5, PC5 = ADC2_IN11
+#define M2_AOUTU_PIN        PA7
+#define M2_AOUTV_PIN        PC4
+#define M2_AOUTW_PIN        PC5
 
 #define M2_nFAULT_PIN       PE8
 #define M2_nSLEEP_PIN       PE10
@@ -40,9 +42,10 @@
 #define M3_INV_PIN          PC7
 #define M3_INW_PIN          PC8
 
-#define M3_AOUTU_PIN        
-#define M3_AOUTV_PIN        
-#define M3_AOUTW_PIN        
+// PB1 = ADC3_IN1, PE7 = ADC3_IN4, PE9 = ADC3_IN2
+#define M3_AOUTU_PIN        PB1
+#define M3_AOUTV_PIN        PE7
+#define M3_AOUTW_PIN        PE9
 
 #define M3_nFAULT_PIN       PD8
 #define M3_nSLEEP_PIN       PD9
